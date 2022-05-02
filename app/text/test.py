@@ -19,7 +19,8 @@ driver = webdriver.Remote(
 )
 
 # 変数
-q = 'パチンコ'
+print('検索キーワード入れろ')
+q = input('>>')
 url = f'https://www.youtube.com/results?search_query={q}&sp=EgIQAg%253D%253D'
 #url = 'https://muuuuu.org'
 base_url = 'https://www.youtube.com'
