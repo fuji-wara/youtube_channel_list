@@ -22,8 +22,10 @@ two_months_ago = "2022/2/10"
 base_url = 'https://www.youtube.com'
 labels = ['チャンネル名', 'チャンネルURL', '投稿頻度', '最新動画投稿日', '動画本数']
 channel_list = 'ccv_dict2.csv'
-cannnel_researched ='チャンネルリサーチ除外一覧表 - リサーチ除外一覧表.csv'
-cahnnel_register ='登録できるチャンネル.csv'
+# 'チャンネルリサーチ除外一覧表 - リサーチ除外一覧表.csv
+cannnel_researched ='ddddd.csv'
+#  登録できるチャンネル.csv'
+cahnnel_register ='sdsdsdsd.csv'
 
 
 def main():
