@@ -18,6 +18,7 @@ driver = webdriver.Remote(
     options=options,
 
 )
+
 two_months_ago = "2022/2/10"
 base_url = 'https://www.youtube.com'
 labels = ['チャンネル名', 'チャンネルURL', '投稿頻度', '最新動画投稿日', '動画本数']
@@ -121,3 +122,6 @@ def scrap_cannel(channel_title, channel_url, channel_all, comparison):
     
     else:
         print('被ってる')
+
+if __name__ == '__main__':
+    main()
