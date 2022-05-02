@@ -1,0 +1,14 @@
+version: "3"
+services:
+  selenium:
+    image: seleniarm/standalone-chromium:4.0.0-beta-1-20210215
+    ports:
+      - 4444:4444
+      - 5900:5900
+  app:
+    build: ./app
+    volumes:
+      - ./app:/app
+    environment:
+      SELENIUM_URL: http://selenium:4444/wd/hub
+    tty: true
